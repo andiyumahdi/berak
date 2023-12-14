@@ -17,7 +17,7 @@ body {
 .popup-container {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
@@ -30,6 +30,11 @@ body {
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
+}
+
+img{
+    height: 5em;
+    width: 5em;
 }
   
   .popup {
